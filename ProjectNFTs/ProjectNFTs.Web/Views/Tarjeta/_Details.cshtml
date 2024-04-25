@@ -1,0 +1,31 @@
+﻿@model ProjectNFTs.Application.DTOs.TarjetaDTO
+
+<div class="container">
+    <dl class="row">
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd class = "col-sm-8">
+            @{               
+            @Html.Raw(@Model.Estado ? "Activo" : "Inactivo") 
+            }
+        </dd>
+    </dl>
+</div>
+

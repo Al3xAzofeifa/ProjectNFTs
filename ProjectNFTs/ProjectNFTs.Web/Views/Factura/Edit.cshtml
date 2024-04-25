@@ -1,0 +1,179 @@
+﻿@model ProjectNFTs.Application.DTOs.EncabezadoFacturaDTO
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Editar Factura:</h2>
+<h4>#@Model.IdFactura</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="editClienteForm" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" style="margin-bottom: 15px">
+                <label asp-for="IdFactura" class="control-label"></label>
+                <input asp-for="IdFactura" class="form-control" readonly />
+                <span asp-validation-for="IdFactura" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px" hidden>
+                <label asp-for="IdCliente" class="control-label"></label>
+                <input asp-for="IdCliente" class="form-control" />
+                <span asp-validation-for="IdCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px" hidden>
+                <label asp-for="IdTarjeta" class="control-label"></label>
+                <input asp-for="IdTarjeta" class="form-control" />
+                <span asp-validation-for="IdTarjeta" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px" hidden>
+                <label asp-for="NumeroTarjeta" class="control-label"></label>
+                <input asp-for="NumeroTarjeta" class="form-control" />
+                <span asp-validation-for="NumeroTarjeta" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px" hidden>
+                <label asp-for="Total" class="control-label"></label>
+                <input asp-for="Total" class="form-control" />
+                <span asp-validation-for="Total" class="text-danger"></span>
+            </div>
+            @* <label class="form-check-label">
+            <input class="form-check-input" asp-for="EstadoFactura" /> Activo
+            </label> *@
+
+            <label class="switch" style="margin-bottom: 15px">
+                <input type="checkbox" id="toggleButton" onchange="onToggleChanged(this.checked)">
+                <div class="slider round">
+                    <!-- Texto dentro del slider para ON/OFF -->
+                    <span class="off" id="offText" style="display:none;">OFF</span>
+                    <span class="on" id="onText" style="display:none;">ON</span>
+                </div>
+            </label>
+            <!-- Campo oculto para almacenar el valor del interruptor -->
+            <input type="hidden" asp-for="EstadoFactura" id="hiddenEstadoFactura" />
+
+            <div class="form-group" style="margin-bottom: 15px" hidden>
+                <label asp-for="DescripcionTarjeta" class="control-label"></label>
+                <input asp-for="DescripcionTarjeta" class="form-control" />
+                <span asp-validation-for="DescripcionTarjeta" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px" hidden>
+                <label asp-for="NombreCliente" class="control-label"></label>
+                <input asp-for="NombreCliente" class="form-control" />
+                <span asp-validation-for="NombreCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 15px">
+                <button type="submit" class="btn btn-success">
+                    <i class="bi bi-floppy"></i> Guardar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <div class="row">
+        <div class="col">
+            <a asp-action="Anular" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Volver
+            </a>
+        </div>
+    </div>
+</div>
+
+<br />
+<div id="contenedor"></div>
+<div id="loader" class="xxxx"></div>
+<br />
+
+
+@section Scripts {
+    <script type="text/javascript">
+
+        document.getElementById("editClienteForm").addEventListener("submit", function (event) {
+            // Detener la propagación del evento
+            event.preventDefault();
+            event.stopPropagation();
+
+            // Verificar si el formulario es válido
+            if (event.target.checkValidity()) {
+                // Mostrar el mensaje de confirmación
+                Swal.fire({
+                    title: '¿Estás seguro?',
+                    text: '¿Deseas guardar los cambios en esta factura?',
+                    icon: 'question',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Sí, guardar cambios',
+                    cancelButtonText: 'Cancelar'
+                }).then((result) => {
+                    // Si el usuario confirma, enviar el formulario
+                    if (result.isConfirmed) {
+                        onBegin();
+                        setTimeout(function () {
+                            document.getElementById('editClienteForm').submit();
+                        }, 1000); // Esperar 3 segundos antes de enviar el formulario
+                    }
+                });
+            } else {
+                console.log("Faltan datos por agregar");
+                // Si el formulario no es válido, no hacer nada
+            }
+        });
+
+        function onToggleChanged(checked) {
+            var onText = document.getElementById("onText");
+            var offText = document.getElementById("offText");
+
+            if (checked) {
+                onText.style.display = "inline";
+                offText.style.display = "none";
+            } else {
+                onText.style.display = "none";
+                offText.style.display = "inline";
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var checkbox = document.querySelector('#toggleButton');
+            var hiddenEstadoFactura = document.querySelector('#hiddenEstadoFactura');
+            var onText = document.getElementById("onText");
+            var offText = document.getElementById("offText");
+
+            // Verificar el estado de la factura al cargar la página
+            var estadoFactura = hiddenEstadoFactura.value === "True";
+            checkbox.checked = estadoFactura;
+
+            // Mostrar u ocultar el texto del interruptor según el estado de la factura
+            if (estadoFactura) {
+                onText.style.display = "inline";
+                offText.style.display = "none";
+            } else {
+                onText.style.display = "none";
+                offText.style.display = "inline";
+            }
+
+            // Actualizar el valor del campo oculto cuando el interruptor cambia
+            checkbox.addEventListener('change', function () {
+                hiddenEstadoFactura.value = this.checked;
+                if (this.checked) {
+                    onText.style.display = "inline";
+                    offText.style.display = "none";
+                } else {
+                    onText.style.display = "none";
+                    offText.style.display = "inline";
+                }
+            });
+        });
+
+        function onBegin() {
+            console.log("onBegin")
+            document.getElementById("loader").className = "loading";
+        }
+
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,416 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+/* Estilo para el contenedor de la imagen */
+.card-img-container {
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
+}
+
+/* Efecto de zoom en la imagen al pasar el cursor */
+.nft-image {
+    transition: transform 0.3s; /* Transición suave para el efecto de zoom */
+}
+
+    .nft-image:hover {
+        transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el cursor */
+    }
+
+#card {
+    background-color: #f8f9fa; /* Fondo gris más claro */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+    border-radius: 10px;
+    overflow: hidden; /* Oculta el contenido que se sale del card */
+}
+
+    #card:hover {
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al pasar el cursor sobre el elemento */
+    }
+
+#card-footer button {
+    visibility: hidden; /* Ocultar el botón inicialmente */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+
+#card:hover .card-footer button {
+    visibility: visible; /* Mostrar el botón al pasar el cursor sobre el card */
+    opacity: 1; /* Mostrar el botón al pasar el cursor sobre el card */
+}
+
+/* Este estilo asegura que el div vacío mantenga el tamaño del card-footer */
+.card-footer-placeholder {
+    width: 100%;
+    height: 22px;
+}
+
+/* Estilo para el contenedor de la imagen ampliada */
+#imagenAmpliadaContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    z-index: 9999; /* Asegura que la imagen ampliada esté por encima de otros elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Inicialmente establecemos la opacidad en 0 */
+    transition: opacity 0.3s ease; /* Agregamos una transición suave para la opacidad */
+}
+
+/* Estilo para la imagen ampliada */
+#imagenAmpliada {
+    max-width: 90%;
+    max-height: 90%;
+    transition: transform 0.3s ease; /* Agregamos una transición suave para la transformación */
+    border-radius: 10px;
+}
+
+
+.wallpaper {
+    background-image: url('../Images/Wallpaper.jpg');
+    background-size: cover; /* Para asegurar que la imagen cubra todo el fondo */
+    background-position: center; /* Para centrar la imagen en el fondo */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
+
+
+.loading {
+    position: fixed;
+    z-index: 999;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+}
+
+    /* Transparent Overlay */
+    .loading:before {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,255,255,0.5);
+    }
+
+    /* :not(:required) hides these rules from IE9 and below */
+    .loading:not(:required) {
+        /* hide "loading..." text */
+        font: 0/0 a;
+        color: transparent;
+        text-shadow: none;
+        background-color: transparent;
+        border: 0;
+    }
+
+        .loading:not(:required):after {
+            content: '';
+            display: block;
+            font-size: 10px;
+            width: 120px;
+            height: 120px;
+            margin-top: -0.5em;
+            border: 15px solid rgba(33, 150, 243, 1.0);
+            border-radius: 50%;
+            border-bottom-color: transparent;
+            /*Colors
+            border-top: 16px solid blue;
+            border-right: 16px solid green;
+            border-bottom: 16px solid red;
+             */
+            -webkit-animation: spinner 1s linear 0s infinite;
+            animation: spinner 1s linear 0s infinite;
+        }
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/*===== SLIDER THREE =====*/
+.slider-three {
+    background-color: var(--light-2);
+    /*padding-top: 112px;
+    padding-bottom: 130px;*/
+}
+
+    .slider-three .section-title .title {
+        font-size: 44px;
+        line-height: 55px;
+        font-weight: 600;
+        color: var(--black);
+    }
+
+@media (max-width: 767px) {
+    .slider-three .section-title .title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+
+.slider-three .section-title .text {
+    color: var(--dark-3);
+    margin-top: 24px;
+}
+
+.slider-three .slider-items-wrapper {
+    position: relative;
+}
+
+    .slider-three .slider-items-wrapper .tns-nav {
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+        .slider-three .slider-items-wrapper .tns-nav button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            background-color: var(--primary);
+            opacity: 0.5;
+            border: 0;
+            margin: 0 5px;
+            -webkit-transition: all 0.4s ease-out 0s;
+            -moz-transition: all 0.4s ease-out 0s;
+            -ms-transition: all 0.4s ease-out 0s;
+            -o-transition: all 0.4s ease-out 0s;
+            transition: all 0.4s ease-out 0s;
+        }
+
+            .slider-three .slider-items-wrapper .tns-nav button.tns-nav-active {
+                width: 20px;
+                opacity: 1;
+                border-radius: 5px;
+            }
+
+.slider-three .single-items-one {
+    margin-top: 40px;
+}
+
+    .slider-three .single-items-one img {
+        width: 100%;
+        box-shadow: var(--shadow-2);
+        border-radius: 10px;
+    }
+
+
+/* Estilo base del botón */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 34px;
+}
+
+    /* Ocultamos el input checkbox nativo */
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+/* Estilo del slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px; /* Agregamos bordes redondeados */
+}
+
+    /* Estilo del círculo deslizante */
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: 0.2s;
+        border-radius: 50%; /* Agregamos bordes redondeados */
+    }
+
+/* Cambio de color cuando el botón está activado */
+input:checked + .slider {
+    background-color: green;
+}
+
+    /* Movimiento del círculo deslizante cuando está activado */
+    input:checked + .slider:before {
+        transform: translateX(30px);
+    }
+
+/* Estilo adicional para el texto ON/OFF */
+.on,
+.off {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-size: 0.8em;
+    color: white; /* Color del texto */
+    font-weight: bold;
+    z-index: 1; /* Asegurar que el texto esté sobre el slider */
+}
+
+.on {
+    right: 28px; /* Ajuste de la posición de "ON" */
+}
+
+.off {
+    left: 45px; /* Ajuste de la posición de "OFF" */
+}
+
+
+/*================= TABLA AUTO EVALUACION ==================*/
+#tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    #tabla thead {
+        background-color: #4F81BD;
+        color: white;
+    }
+
+    #tabla tbody tr:nth-child(odd) {
+        background-color: #B8CCE4; 
+        color: black; 
+    }
+
+    #tabla tbody tr:nth-child(even) {
+        background-color: #DBE5F1; 
+        color: black; 
+    }
+
+    #tabla td, #tabla th {
+        padding: 10px;
+        border: 1.5px solid white;
+        color: black; /* Color de texto negro para todas las celdas */
+    }
+
+    #tabla th {
+        text-align: left;
+    }
+
+#detalle {
+    text-align: center; /* Centrar el contenido del encabezado */
+    color: white; /* Color de texto blanco para el encabezado "Detalle" */
+}
+
+#tabla th[colspan="4"] {
+    text-align: center; /* Centrar el contenido del encabezado que abarca todas las columnas */
+    color: white; /* Color de texto blanco para las celdas que abarcan todas las columnas */
+}
+
+.number {
+    background-color: #4F81BD; /* Cambia el color de fondo */
+    color: white !important;
+}

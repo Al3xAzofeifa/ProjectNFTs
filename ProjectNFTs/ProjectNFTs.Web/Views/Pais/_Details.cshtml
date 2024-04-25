@@ -1,0 +1,25 @@
+﻿@model ProjectNFTs.Application.DTOs.PaisDTO
+
+@{
+    Layout = null;
+}
+
+<div class="container">
+    <dl class="row">
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.IdPais)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.IdPais)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+    </dl>
+</div>
+

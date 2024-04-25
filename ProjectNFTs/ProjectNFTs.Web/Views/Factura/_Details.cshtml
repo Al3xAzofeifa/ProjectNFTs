@@ -1,0 +1,53 @@
+﻿@model ProjectNFTs.Application.DTOs.EncabezadoFacturaDTO
+
+<div class="container">
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.IdFactura)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.IdFactura)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.IdCliente)
+        </dt>
+        <dd class = "col-sm-8">
+            @{
+                @Html.Raw(Model.NombreCliente)
+                ;
+            }
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.IdTarjeta)
+        </dt>
+        <dd class = "col-sm-8">
+            @{
+                string tarjeta = Model.IdTarjeta + "-" + Model.DescripcionTarjeta;
+                @Html.Raw(tarjeta)
+                ;
+            }
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.NumeroTarjeta)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.NumeroTarjeta)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Total)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Total) ETH
+        </dd>
+    </dl>
+</div>
+

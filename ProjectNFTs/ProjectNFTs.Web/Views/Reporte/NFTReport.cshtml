@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "NFTReport";
+}
+
+<h1>Reporte completo de NFT's</h1>
+
+<form id="myForm"
+      asp-action="NFTReportPDF"
+      asp-controller="Reporte"
+      asp-antiforgery="true"
+      method="post"
+      asp-antiforgery="true">
+
+    <button type="submit" class="btn alert-success">Descargar Reporte</button>
+
+</form>

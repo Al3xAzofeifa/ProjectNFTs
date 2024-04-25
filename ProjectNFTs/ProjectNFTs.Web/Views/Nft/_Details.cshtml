@@ -1,0 +1,60 @@
+﻿@model ProjectNFTs.Application.DTOs.NftDTO
+
+@{
+    Layout = null;
+}
+
+<div class="container">
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Autor)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Autor)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Valor) ETH
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.CantidadInventario)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.CantidadInventario)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-12">
+            @Html.DisplayNameFor(model => model.Imagen)
+        </dt>
+        <dd class = "col-sm-12">    
+            <div id="imagenContainer">
+                <img id="imagenNFT" src="data:image;base64,@Convert.ToBase64String(Model.Imagen)" alt="NFT Image"
+                     class="img-fluid" style="width: 80%; height: 90%; border-radius: 10px; " />
+            </div>            
+        </dd>
+    </dl>
+</div>

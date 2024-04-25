@@ -1,0 +1,2 @@
+2024-04-01 22:09:10.563 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-04-01 22:09:27.865 -06:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

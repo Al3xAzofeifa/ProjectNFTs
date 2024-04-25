@@ -1,0 +1,148 @@
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.sourcelink.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.sourcelink.json
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\perez\OneDrive\Documentos\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.sourcelink.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.sourcelink.json
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.sourcelink.json
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.sourcelink.json
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\perez\OneDrive\Documentos\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.sourcelink.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.sourcelink.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.deps.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.runtimeconfig.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.AssemblyInfo.cs
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\refint\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ProjectNFTs.Infraestructure.genruntimeconfig.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Infraestructure\obj\Debug\net8.0\ref\ProjectNFTs.Infraestructure.dll

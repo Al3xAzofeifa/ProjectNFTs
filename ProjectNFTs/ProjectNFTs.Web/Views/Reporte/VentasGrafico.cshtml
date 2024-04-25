@@ -1,0 +1,126 @@
+﻿@{
+    ViewData["Title"] = "VentasGrafico";
+}
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header text-black">Gráfico de ventas</h5>
+        <div class="card-body">
+            <form class="row g-3 align-items-center" asp-action="VentasXFechas" asp-controller="Reporte" method="post">
+                <div class="col-md-4">
+                    <label for="fecha1" class="form-label text-black">Fecha 1:</label>
+                    <input type="date" class="form-control" id="fecha1" name="fecha1">
+                </div>
+                <div class="col-md-4">
+                    <label for="fecha2" class="form-label text-black">Fecha 2:</label>
+                    <input type="date" class="form-control" id="fecha2" name="fecha2" value="@DateTime.Now.ToString("yyyy-MM-dd")">
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-success w-100">Consultar</button>
+                </div>
+            </form>
+            <br />
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+        </div>
+
+        <div class="container p-10">
+            <div class="chart-container">
+                <canvas id="myChart1" style="height: 400px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            Bar();
+        });
+
+        function Bar() {
+            if ("@ViewBag.Valores" == "")
+                return;
+
+            const ctx = document.getElementById('myChart1');
+            let yValues = [@ViewBag.Valores];
+            let etiquetas = "@ViewBag.Etiquetas"
+            let etiquetasArray = etiquetas.split(",");
+
+            var options = {
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        stacked: true,
+                        grid: {
+                            display: true,
+                            color: "rgba(255,99,132,0.2)"
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            };
+
+            new Chart(ctx, {
+                type: 'bar',
+                options: options,
+                data: {
+                    labels: etiquetasArray,
+                    datasets: [{
+                        label: '@ViewBag.GraphTitle',
+                        data: yValues,
+                        borderWidth: 1,
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(255, 205, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(255, 205, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(201, 203, 207, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgb(255, 99, 132)',
+                            'rgb(255, 159, 64)',
+                            'rgb(255, 205, 86)',
+                            'rgb(75, 192, 192)',
+                            'rgb(54, 162, 235)',
+                            'rgb(153, 102, 255)',
+                            'rgb(255, 99, 132)',
+                            'rgb(255, 159, 64)',
+                            'rgb(255, 205, 86)',
+                            'rgb(75, 192, 192)',
+                            'rgb(54, 162, 235)',
+                            'rgb(153, 102, 255)',
+                            'rgb(201, 203, 207)'
+                        ],
+                        borderWidth: 1
+                    }]
+                }
+            });
+
+        }
+
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

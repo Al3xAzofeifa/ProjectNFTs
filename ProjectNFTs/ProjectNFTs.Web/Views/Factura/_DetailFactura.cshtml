@@ -1,0 +1,79 @@
+﻿@model IEnumerable<ProjectNFTs.Application.DTOs.DetalleFacturaDTO>
+
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered text-center" id="detalleFactura">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdDetalle)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DescripcionNFT)
+                </th>
+                <th>
+                    Imagen
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cantidad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalLinea)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="idNft-@item.IdNft">
+                    <td align="center">
+                        @Html.DisplayFor(modelItem => item.IdDetalle)
+                    </td>
+                    <td align="left">
+                        @Html.DisplayFor(modelItem => item.DescripcionNFT)
+                    </td>
+                    <td align="center">
+                        <div class="imagen-container">
+                            <img src="@item.ImagenUrl" style="height:90px;width:90px; cursor:pointer; border-radius:5px;" class="zoom2">
+                        </div>
+                    </td>
+                    <td align="right">
+                        @Html.DisplayFor(modelItem => item.Cantidad)
+                    </td>
+                    <td align="right">
+                        @Html.DisplayFor(modelItem => item.Precio) ETH
+                    </td>
+                    <td align="right">
+                        @Html.DisplayFor(modelItem => item.TotalLinea) ETH
+                    </td>
+                    <td align="right">
+                        <button type="button" class="btn btn-danger" onclick="deleteNft(@item.IdDetalle)">Borrar</button>
+                    </td>
+                </tr>
+            }
+
+            <!-- Add dummy row in order to show totals-->
+            <tr>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="left"></td>
+                <td align="right"></td>
+                <td align="right"></td>
+                <td align="right"></td>
+                <td align="right">
+                    @if (Model != null)
+                    {
+                        @Model.Sum(p => p.TotalLinea).ToString("###,##0.00") 
+                    }
+                    ETH
+                </td>
+                <td align="right"></td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>

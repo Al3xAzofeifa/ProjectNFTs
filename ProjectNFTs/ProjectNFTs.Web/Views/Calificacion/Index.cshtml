@@ -1,0 +1,140 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 style="text-align:center;">Tabla de auto calificación</h1>
+    <div class="header">
+        <div style="display:flex;flex-direction:column;">
+            <div><span style="font-size: 1.2rem;">Carné:</span></div>
+            <span style="font-size: 1.2rem;"><strong>504540035</strong></span>
+            <span style="font-size: 1.2rem;"><strong>208390544</strong></span>
+        </div>
+        <div style="display:flex;flex-direction:column;">
+            <div><span style="font-size: 1.2rem;">Nombre:</span></div>
+            <span style="font-size: 1.2rem;"><strong>Alexander Azofeifa Leal</strong></span>
+            <span style="font-size: 1.2rem;"><strong>Yustin Pérez Castro</strong></span>
+        </div>
+        <div style="display:flex;flex-direction:column;">
+            <div><span style="font-size: 1.2rem;">Fecha:</span></div>
+            <span style="font-size: 1.2rem;"><strong>18/04/2024</strong></span>
+        </div>
+    </div>
+
+    <hr style="width: 85%; margin: 20px auto; border-color: #ccc;"> <!-- Línea divisoria -->
+
+    <br>
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th colspan="4" id="detalle">Detalle</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Puntos a Evaluar</th>
+                <th>Puntos</th>
+                <th>Autoevaluación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="number">1</td>
+                <td><strong> Registros de Ejemplo</strong></td>
+                <td>10 pts</td>
+                <td>10 pts</td>
+            </tr>
+            <tr>
+                <td class="number">2</td>
+                <td>Diseño de la Arquitectura del Software, estándares serilog, mensaje toastr, control de errores.</td>
+                <td>10 pts</td>
+                <td>10 pts</td>
+            </tr>
+            <tr>
+                <td class="number">3</td>
+                <td><strong>Seguridad</strong></td>
+                <td>5 pts</td>
+                <td>5 pts</td>
+            </tr>
+            <tr>
+                <td class="number"> 4</td>
+                <td>
+                    <strong>Mantenimientos </strong><br />
+                    a- Cliente 5 pts<br>
+                    b- Activos NFT 10 pts<br>
+                    c- Tarjetas 5 pts<br>
+                    d- País 5 pts
+                </td>
+                <td>25 pts</td>
+                <td>25 pts</td>
+            </tr>
+            <tr>
+                <td class="number">5</td>
+                <td>
+                    <strong>Procesos </strong><br />
+                    a- Venta NFT           10 pts<br>
+                    b- Anulación            5 pts<br>
+                    c- Cambio Propietario NFT 5 pts
+                </td>
+                <td>20 pts</td>
+                <td>20 pts</td>
+            </tr>
+            <tr>
+                <td class="number">6</td>
+                <td>
+                    <strong>Rest API</strong><br>
+                    Consulta de NFT:<br>
+                    a- Nombre del NFT 5 pts<br>
+                    b- Listado de NFT 5 pts
+                </td>
+                <td>10 pts</td>
+                <td>10 pts</td>
+            </tr>
+            <tr>
+                <td class="number">7</td>
+                <td><strong>Reportes</strong></td>
+                <td>15 pts</td>
+                <td>15 pts</td>
+            </tr>
+            <tr>
+                <td class="number">8</td>
+                <td><strong>Defensa de proyecto</strong></td>
+                <td>5 pts</td>
+                <td>5 pts</td>
+            </tr>
+            <tr style="background-color: #4F81BD;">
+                <th colspan="4"></th>
+            </tr>
+            <tr>
+                <td class="number"></td>
+                <td><strong>Total</strong></td>
+                <td>100 pts</td>
+                <td>100 pts</td>
+            </tr>
+            <tr>
+                <td class="number"></td>
+                <td><strong>Porcentaje</strong></td>
+                <td>30%</td>
+                <td>30%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+@section Scripts{
+    <style>
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+}

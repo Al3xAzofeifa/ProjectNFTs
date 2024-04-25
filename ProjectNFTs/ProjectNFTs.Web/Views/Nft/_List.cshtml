@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ProjectNFTs.Application.DTOs.NftDTO>
+
+@{
+    Layout = null;
+}
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div id="card" class="card h-100 card-zoom">
+                <div class="card-img-container" style="max-height: 220px; display: flex; align-items: center; justify-content: center;">
+                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(item.Imagen)" class="card-img-top nft-image" alt="Imagen del NFT">
+                </div>
+                <div id="card-body" class="card-body">
+                    <h5 class="card-title">@item.Nombre</h5>
+                    @*                  <p class="card-text font-semibold">Autor: @item.Autor</p> *@
+                    <strong class="card-text">Valor:</strong>
+                    <span class="card-text">@item.Valor</span>
+                    <span class="card-text">ETH</span>
+                </div>
+                <div id="card-footer" class="card-footer">
+                    <div class="card-footer-placeholder"></div> <!-- Elemento vacío para mantener el tamaño -->
+                    <button class="btn btn-primary" onclick="addNft('@item.Id', '@item.CantidadInventario', '@item.Valor')">
+                        <i class="bi bi-cart3"></i> Comprar
+                    </button>                  
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,195 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectNFTs.Web
+build_property.RootNamespace = ProjectNFTs.Web
+build_property.ProjectDir = C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto_Final\ProjectNFTs\ProjectNFTs.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Calificacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Cliente/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Factura/Anular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxBbnVsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Factura/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Factura/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Factura/_AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxfQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Factura/_DetailFactura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxfRGV0YWlsRmFjdHVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Factura/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Nft/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmZ0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Nft/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmZ0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Nft/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmZ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Nft/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmZ0XF9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Nft/_List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmZ0XF9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Pais/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Pais/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Pais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Pais/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Reporte/ClienteByNFTNameReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxDbGllbnRlQnlORlROYW1lUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Reporte/ClienteReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxDbGllbnRlUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Reporte/FacturasReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxGYWN0dXJhc1JlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Reporte/NFTReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxORlRSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Reporte/VentasGrafico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZVxWZW50YXNHcmFmaWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Tarjeta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Tarjeta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Tarjeta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Tarjeta/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YVxfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Usuario/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xfRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alexa/OneDrive/Documentos/UTN/2024/Ambiente Web II/Proyecto/Proyecto_Final/ProjectNFTs/ProjectNFTs.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r7zphpc9s2

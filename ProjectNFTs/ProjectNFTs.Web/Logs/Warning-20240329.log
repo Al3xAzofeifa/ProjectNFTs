@@ -1,0 +1,8 @@
+2024-03-29 20:29:37.437 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-03-29 20:30:32.169 -06:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-03-29 21:54:17.171 -06:00 [WRN] Failed to determine the https port for redirect.
+2024-03-29 21:54:35.915 -06:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-03-29 22:05:45.118 -06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-03-29 22:06:25.207 -06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-03-29 22:06:29.306 -06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-03-29 22:06:29.556 -06:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.

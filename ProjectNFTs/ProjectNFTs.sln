@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectNFTs.Web", "ProjectNFTs.Web\ProjectNFTs.Web.csproj", "{51CF2DE6-F7F9-45A8-BC87-0D155F628A8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectNFTs.Application", "ProjectNFTs.Application\ProjectNFTs.Application.csproj", "{BC315B48-1274-4F4A-9ECA-C7320B20A579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectNFTs.Infraestructure", "ProjectNFTs.Infraestructure\ProjectNFTs.Infraestructure.csproj", "{D8F20352-AF9D-4CCE-B05B-6A74869AE274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectNFTs.API", "ProjectNFTs.API\ProjectNFTs.API.csproj", "{C5643D9B-3588-4FC9-B738-F95812CEF634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51CF2DE6-F7F9-45A8-BC87-0D155F628A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CF2DE6-F7F9-45A8-BC87-0D155F628A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CF2DE6-F7F9-45A8-BC87-0D155F628A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CF2DE6-F7F9-45A8-BC87-0D155F628A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC315B48-1274-4F4A-9ECA-C7320B20A579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC315B48-1274-4F4A-9ECA-C7320B20A579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC315B48-1274-4F4A-9ECA-C7320B20A579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC315B48-1274-4F4A-9ECA-C7320B20A579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F20352-AF9D-4CCE-B05B-6A74869AE274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F20352-AF9D-4CCE-B05B-6A74869AE274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F20352-AF9D-4CCE-B05B-6A74869AE274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F20352-AF9D-4CCE-B05B-6A74869AE274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5643D9B-3588-4FC9-B738-F95812CEF634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5643D9B-3588-4FC9-B738-F95812CEF634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5643D9B-3588-4FC9-B738-F95812CEF634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5643D9B-3588-4FC9-B738-F95812CEF634}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63388871-C9E0-4C20-9C9C-3DC5E58C0DAE}
+	EndGlobalSection
+EndGlobal

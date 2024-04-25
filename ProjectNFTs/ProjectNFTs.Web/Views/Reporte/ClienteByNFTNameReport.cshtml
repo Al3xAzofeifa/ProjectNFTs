@@ -1,0 +1,230 @@
+﻿@{
+    ViewData["Title"] = "Producto PDF";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Reporte de dueño por Nombre de NFT
+        </div>
+        <div class="card-body">
+            <form asp-action="ClienteReportByNFTNamePDF"
+                  asp-controller="Reporte"
+                  asp-antiforgery="true"
+                  method="post" onsubmit="return validateForm()">
+
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label for="descripcion" id="label" class="form-label">NFT</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" id="descripcion" name="descripcion" class="form-control" placeholder="Nombre del NFT">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-success">Consultar</button>
+                    </div>
+                </div>
+            </form>
+            <br />
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-danger" id="Message" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+        </div>
+
+        <div id="partialViewContainer"></div>
+    </div>
+
+</div>
+</div>
+
+@section scripts {
+    <script type="text/javascript">
+
+        function validateForm() {
+            let divDescripcion = document.getElementById("descripcion");
+            console.log(divDescripcion.value)
+
+            if (divDescripcion.value === "")
+                return false;
+            else
+                return true;
+        }
+
+        function clearMessage() {
+            let divMessage = document.getElementById("Message");
+            // timeout to clear message
+            if (divMessage != null)
+                setTimeout(() => { divMessage.remove(); }, 3000);
+            console.log("bye");
+        }
+
+        clearMessage();
+
+    </script>
+
+
+
+    <script>
+        // Busca el cliente por nombre+apellido1+apellido2
+        $("#descripcion").autocomplete({
+            source: function (request, response) {
+                var descripcion = $("#descripcion").val();
+                console.log(descripcion);
+                $.ajax({
+                    type: "GET",
+                    url: "/Nft/GetNftByName",
+                    dataType: "json",
+                    data: { filtro: descripcion },
+                    success: function (data) {
+                        response($.map(data, function (item) {
+                            console.log(item);
+                            return { label: item.nombre, value: item.nombre };
+                        }));
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(error)
+                        alert("Error: " + error + ", No Error: " + xhr.status);
+                    },
+                });
+            },
+            select: function (event, ui) {
+                $("#descripcion").val(ui.item.value);
+                $("#NombreNFT").html(ui.item.label)
+                return false;
+            }
+        });
+    </script>
+
+
+    <script>
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        // Clear IdCliente and NombreCliente when they got the focus                                 //
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        $("#descripcion").focus(function () {
+            // Limpia la caja de texto
+            $("#descripcion").val("");
+            $("#NombreNFT").html("*");
+            $("#partialViewContainer").empty();
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var clienteJson = '@Html.Raw(Json.Serialize(ViewBag.Cliente))';
+            var nftJson = '@Html.Raw(Json.Serialize(ViewBag.NFT))';
+
+            var cliente = JSON.parse(clienteJson);
+            var nft = JSON.parse(nftJson);
+
+            if (cliente && nft) {
+                var htmlContent = `
+                 <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-md-12">
+                            <h4>Información del NFT:</h4>
+                            <hr />
+                            <dl class="row">
+                                <dt class="col-sm-3">
+                                    Nombre del NFT:
+                                </dt>
+                                <dd class="col-sm-9">
+                                    ${nft.nombre}
+                                </dd>
+                                <dt class="col-sm-3">
+                                    Autor:
+                                </dt>
+                                <dd class="col-sm-9">
+                                    ${nft.autor}
+                                </dd>
+                                <dt class="col-sm-3">
+                                    Valor:
+                                </dt>
+                                <dd class="col-sm-9">
+                                    ${nft.valor} ETH    
+                                </dd>
+                                <dt class="col-sm-3">
+                                    Cantidad en inventario:
+                                </dt>
+                                <dd class="col-sm-9">
+                                    ${nft.cantidadInventario}
+                                </dd>
+                                <dt class="col-sm-3">
+                                    Imagen del NFT:
+                                </dt>
+                                <dd class="col-sm-9">
+                                    <div id="imagenContainer" style="max-width:300px; max-height:auto">
+                                                <img id="imagenNFT" src="data:image;base64,${nft.imagen}" alt="NFT Image" class="img-fluid zoom2" style="width: 100%; height: auto; cursor:pointer; border-radius: 10px;" />
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Información del Cliente:</h4>
+                            <hr />
+                            <dl class="row">
+                                <dt class="col-sm-3">
+                                    Nombre:
+                                </dt>
+                                <dd class="col-sm-9">
+                                    ${cliente.nombre}
+                                </dd>
+                                <dt class="col-sm-3">
+                                    Apellidos:
+                                </dt>
+                                <dd class="col-sm-9">
+                                    ${cliente.apellido1} ${cliente.apellido2}
+                                </dd>
+                                <dt class="col-sm-3">
+                                    Email:
+                                </dt>
+                                <dd class="col-sm-9">
+                                    ${cliente.email}
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                `;
+                $('#partialViewContainer').html(htmlContent);
+
+                // Captura el clic en la imagen y muestra la imagen ampliada en pantalla completa
+                $('#partialViewContainer').on('click', '.zoom2', function () {
+                    var imagenAmpliadaContainer = document.createElement('div');
+                    imagenAmpliadaContainer.id = 'imagenAmpliadaContainer';
+                    document.body.appendChild(imagenAmpliadaContainer);
+
+                    var imagenAmpliada = document.createElement('img');
+                    imagenAmpliada.id = 'imagenAmpliada';
+                    imagenAmpliada.src = $(this).attr('src');
+                    imagenAmpliada.alt = 'NFT Image';
+                    imagenAmpliadaContainer.appendChild(imagenAmpliada);
+
+                    // Esperamos un corto tiempo antes de cambiar la opacidad para permitir la transición suave
+                    setTimeout(function () {
+                        imagenAmpliadaContainer.style.opacity = '1';
+                    }, 50);
+
+                    // Cierra la imagen ampliada al hacer clic fuera de ella
+                    imagenAmpliadaContainer.addEventListener('click', function () {
+                        imagenAmpliadaContainer.style.opacity = '0'; // Primero, hacemos que la opacidad sea 0 para la transición de salida
+                        setTimeout(function () {
+                            imagenAmpliadaContainer.remove(); // Luego, eliminamos el contenedor de la imagen ampliada después de la transición
+                        }, 300);
+                    });
+                });
+            }
+        });
+
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+}

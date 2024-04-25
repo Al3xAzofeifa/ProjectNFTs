@@ -1,0 +1,55 @@
+﻿@model ProjectNFTs.Application.DTOs.UsuarioDTO
+
+<div class="container">
+    <dl class="row">
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Login)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Login)
+        </dd>      
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.IdRol)
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.IdRol) - @Html.DisplayFor(model => model.DescripcionRol)
+        </dd>
+
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Apellido)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Apellido)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd class = "col-sm-8">
+            @{
+                @Html.Raw(@Model.Estado ? "Activo" : "Inactivo")
+            }
+        </dd>
+    </dl>
+</div>

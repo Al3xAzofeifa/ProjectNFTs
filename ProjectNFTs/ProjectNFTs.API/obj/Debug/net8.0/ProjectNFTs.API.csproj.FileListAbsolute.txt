@@ -1,0 +1,342 @@
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.AssemblyReference.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.sourcelink.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\appsettings.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.exe
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.deps.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.runtimeconfig.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.pdb
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\HarfBuzzSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\itextsharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Charting.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Quality.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Snippets.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.System.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.WPFonts.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\SkiaSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\SkiaSharp.HarfBuzz.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\de\PdfSharp.Charting.resources.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\de\PdfSharp.resources.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Application.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Application.pdb
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.ProjectNFTs.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.build.ProjectNFTs.API.props
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProjectNFTs.API.props
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProjectNFTs.API.props
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\scopedcss\bundle\ProjectNFTs.API.styles.css
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.CopyComplete
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\refint\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.pdb
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.genruntimeconfig.cache
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ref\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\alexa\Documents\ProjectNFTs\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.AssemblyReference.cache
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.sourcelink.json
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\refint\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\ProjectNFTs\Version-Yustin\Proyecto Con Login\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.pdb
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.AssemblyReference.cache
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.sourcelink.json
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\refint\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\ProjectNFTs\Respaldo\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.pdb
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.AssemblyReference.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfoInputs.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfo.cs
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.sourcelink.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\refint\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.pdb
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\appsettings.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.exe
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.deps.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.runtimeconfig.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.pdb
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\itextsharp.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Charting.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Quality.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Snippets.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.System.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.WPFonts.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\de\PdfSharp.Charting.resources.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\de\PdfSharp.resources.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Black.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-BlackItalic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Bold.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-BoldItalic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ExtraBold.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ExtraLight.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Italic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Light.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-LightItalic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Medium.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-MediumItalic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Regular.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-SemiBold.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Thin.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ThinItalic.ttf
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\OFL.txt
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Application.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Application.pdb
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.ProjectNFTs.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.build.ProjectNFTs.API.props
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProjectNFTs.API.props
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProjectNFTs.API.props
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\scopedcss\bundle\ProjectNFTs.API.styles.css
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.CopyComplete
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.genruntimeconfig.cache
+C:\Users\alexa\Documents\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ref\ProjectNFTs.API.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\appsettings.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.exe
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.deps.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.runtimeconfig.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.API.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\itextsharp.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Charting.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Quality.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.Snippets.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.System.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.WPFonts.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\PdfSharp.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\de\PdfSharp.Charting.resources.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\de\PdfSharp.resources.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Black.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-BlackItalic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Bold.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-BoldItalic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ExtraBold.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ExtraLight.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Italic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Light.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-LightItalic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Medium.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-MediumItalic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Regular.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-SemiBold.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-Thin.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\Lato-ThinItalic.ttf
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\any\native\LatoFont\OFL.txt
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Application.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Infraestructure.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Application.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\bin\Debug\net8.0\ProjectNFTs.Infraestructure.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.AssemblyReference.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfoInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.AssemblyInfo.cs
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.CoreCompileInputs.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.sourcelink.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.ProjectNFTs.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.build.ProjectNFTs.API.props
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProjectNFTs.API.props
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProjectNFTs.API.props
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\scopedcss\bundle\ProjectNFTs.API.styles.css
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.csproj.CopyComplete
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\refint\ProjectNFTs.API.dll
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.pdb
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ProjectNFTs.API.genruntimeconfig.cache
+C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\Proyecto\Proyecto Final\ProjectNFTs\ProjectNFTs.API\obj\Debug\net8.0\ref\ProjectNFTs.API.dll

@@ -1,0 +1,682 @@
+2024-03-23 19:27:24.501 -06:00 [INF] User profile is available. Using 'C:\Users\alexa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 19:27:26.513 -06:00 [INF] Now listening on: http://localhost:5024
+2024-03-23 19:27:26.552 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 19:27:26.569 -06:00 [INF] Hosting environment: Development
+2024-03-23 19:27:26.570 -06:00 [INF] Content root path: C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web
+2024-03-23 19:27:40.804 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - null null
+2024-03-23 19:27:44.348 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 19:27:44.681 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectNFTs.Web.Controllers.HomeController (ProjectNFTs.Web).
+2024-03-23 19:27:45.198 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 19:27:45.212 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.2576ms.
+2024-03-23 19:27:45.449 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 19:27:46.433 -06:00 [INF] Executed ViewResult - view Index executed in 941.7063ms.
+2024-03-23 19:27:46.613 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-03-23 19:27:46.639 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/css/site.css?v=wwgnV0gMEWK8sI-hK9r1V5rxA7MBerUGQCrCKAko0lA - null null
+2024-03-23 19:27:46.730 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ProjectNFTs.Web.styles.css?v=XBcsh37MSG7mUnswB0_H--UdFX9DqC97XNEneDnv5fI - null null
+2024-03-23 19:27:46.750 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) in 2055.3777ms
+2024-03-23 19:27:46.766 -06:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-03-23 19:27:46.766 -06:00 [INF] The file /css/site.css was not modified
+2024-03-23 19:27:46.774 -06:00 [INF] The file /ProjectNFTs.Web.styles.css was not modified
+2024-03-23 19:27:46.779 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 19:27:46.787 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ProjectNFTs.Web.styles.css?v=XBcsh37MSG7mUnswB0_H--UdFX9DqC97XNEneDnv5fI - 304 null text/css 56.5378ms
+2024-03-23 19:27:46.789 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/css/site.css?v=wwgnV0gMEWK8sI-hK9r1V5rxA7MBerUGQCrCKAko0lA - 304 null text/css 149.6895ms
+2024-03-23 19:27:46.789 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 175.2412ms
+2024-03-23 19:27:46.801 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - 200 null text/html; charset=utf-8 6049.9757ms
+2024-03-23 19:27:46.832 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 19:27:46.816 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/jquery/dist/jquery.min.js - null null
+2024-03-23 19:27:46.842 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-03-23 19:27:46.845 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-03-23 19:27:46.855 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 22.7879ms
+2024-03-23 19:27:46.862 -06:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-03-23 19:27:46.867 -06:00 [INF] The file /js/site.js was not modified
+2024-03-23 19:27:46.875 -06:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-03-23 19:27:46.886 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/jquery/dist/jquery.min.js - 304 null text/javascript 69.6656ms
+2024-03-23 19:27:46.896 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 54.7893ms
+2024-03-23 19:27:46.899 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 58.9534ms
+2024-03-23 19:27:46.965 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 19:27:47.365 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 400.0888ms
+2024-03-23 19:27:50.010 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 19:27:50.200 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 19:27:50.255 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 19:27:53.702 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 19:28:02.229 -06:00 [INF] Executed DbCommand (129ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 19:28:02.412 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8706.4191ms.
+2024-03-23 19:28:02.429 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 19:28:02.592 -06:00 [INF] Executed ViewResult - view Index executed in 166.7326ms.
+2024-03-23 19:28:03.016 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 19:28:02.984 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 19:28:03.100 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 12839.318ms
+2024-03-23 19:28:03.093 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-03-23 19:28:03.087 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-03-23 19:28:03.196 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 212.3923ms
+2024-03-23 19:28:03.203 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 19:28:03.209 -06:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2024-03-23 19:28:03.203 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 186.8982ms
+2024-03-23 19:28:03.214 -06:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2024-03-23 19:28:03.227 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 304 null text/javascript 132.8685ms
+2024-03-23 19:28:03.233 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 145.5182ms
+2024-03-23 19:28:03.248 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 13237.6191ms
+2024-03-23 19:28:07.855 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais/_Details/1?X-Requested-With=XMLHttpRequest&_=1711243682700 - null null
+2024-03-23 19:28:07.888 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web)'
+2024-03-23 19:28:07.917 -06:00 [INF] Route matched with {action = "_Details", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] _Details(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 19:28:08.194 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 19:28:08.719 -06:00 [INF] Executed DbCommand (66ms) [Parameters=[@__p_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+WHERE [p].[IdPais] = @__p_0
+2024-03-23 19:28:08.866 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 643.5052ms.
+2024-03-23 19:28:08.872 -06:00 [INF] Executing ViewResult, running view _Details.
+2024-03-23 19:28:08.895 -06:00 [INF] Executed ViewResult - view _Details executed in 24.5744ms.
+2024-03-23 19:28:08.902 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web) in 947.1389ms
+2024-03-23 19:28:08.906 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web)'
+2024-03-23 19:28:08.919 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais/_Details/1?X-Requested-With=XMLHttpRequest&_=1711243682700 - 200 null text/html; charset=utf-8 1061.3158ms
+2024-03-23 19:28:18.894 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais/_Details/1?X-Requested-With=XMLHttpRequest&_=1711243682701 - null null
+2024-03-23 19:28:18.905 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web)'
+2024-03-23 19:28:18.914 -06:00 [INF] Route matched with {action = "_Details", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] _Details(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 19:28:18.977 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 19:28:19.038 -06:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+WHERE [p].[IdPais] = @__p_0
+2024-03-23 19:28:19.052 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 69.284ms.
+2024-03-23 19:28:19.057 -06:00 [INF] Executing ViewResult, running view _Details.
+2024-03-23 19:28:19.062 -06:00 [INF] Executed ViewResult - view _Details executed in 4.9826ms.
+2024-03-23 19:28:19.065 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web) in 145.8108ms
+2024-03-23 19:28:19.071 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web)'
+2024-03-23 19:28:19.074 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais/_Details/1?X-Requested-With=XMLHttpRequest&_=1711243682701 - 200 null text/html; charset=utf-8 179.3149ms
+2024-03-23 19:39:04.351 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais/_Details/1?X-Requested-With=XMLHttpRequest&_=1711243682702 - null null
+2024-03-23 19:39:04.378 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web)'
+2024-03-23 19:39:04.382 -06:00 [INF] Route matched with {action = "_Details", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] _Details(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 19:39:04.477 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 19:39:04.520 -06:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+WHERE [p].[IdPais] = @__p_0
+2024-03-23 19:39:04.535 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 53.0882ms.
+2024-03-23 19:39:04.547 -06:00 [INF] Executing ViewResult, running view _Details.
+2024-03-23 19:39:04.553 -06:00 [INF] Executed ViewResult - view _Details executed in 6.189ms.
+2024-03-23 19:39:04.564 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web) in 178.1877ms
+2024-03-23 19:39:04.569 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais/_Details/1?X-Requested-With=XMLHttpRequest&_=1711243682703 - null null
+2024-03-23 19:39:04.569 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web)'
+2024-03-23 19:39:04.594 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web)'
+2024-03-23 19:39:04.599 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais/_Details/1?X-Requested-With=XMLHttpRequest&_=1711243682702 - 200 null text/html; charset=utf-8 247.5397ms
+2024-03-23 19:39:04.602 -06:00 [INF] Route matched with {action = "_Details", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] _Details(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 19:39:04.716 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 19:39:04.734 -06:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+WHERE [p].[IdPais] = @__p_0
+2024-03-23 19:39:04.766 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 45.0245ms.
+2024-03-23 19:39:04.770 -06:00 [INF] Executing ViewResult, running view _Details.
+2024-03-23 19:39:04.778 -06:00 [INF] Executed ViewResult - view _Details executed in 7.4164ms.
+2024-03-23 19:39:04.783 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web) in 170.2267ms
+2024-03-23 19:39:04.786 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController._Details (ProjectNFTs.Web)'
+2024-03-23 19:39:04.792 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais/_Details/1?X-Requested-With=XMLHttpRequest&_=1711243682703 - 200 null text/html; charset=utf-8 222.0192ms
+2024-03-23 20:37:02.500 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 20:37:02.635 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 20:37:02.794 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:02.814 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 20:37:02.989 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:37:03.046 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:03.082 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 20:37:03.176 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:37:03.176 -06:00 [INF] Executed DbCommand (77ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 20:37:03.912 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 864.141ms.
+2024-03-23 20:37:03.930 -06:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 20:37:03.977 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 20:37:03.980 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 321.6011ms.
+2024-03-23 20:37:03.985 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 20:37:04.066 -06:00 [INF] Executed ViewResult - view Index executed in 80.7916ms.
+2024-03-23 20:37:04.174 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 20:37:04.171 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 20:37:04.250 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 79.0485ms
+2024-03-23 20:37:04.233 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 1144.4141ms
+2024-03-23 20:37:04.262 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:04.066 -06:00 [INF] Executed ViewResult - view Index executed in 91.859ms.
+2024-03-23 20:37:04.265 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 1631.8285ms
+2024-03-23 20:37:04.268 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 1401.4297ms
+2024-03-23 20:37:04.303 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:04.315 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 1814.8402ms
+2024-03-23 20:37:04.371 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 197.9075ms
+2024-03-23 20:37:04.828 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/favicon.ico - null null
+2024-03-23 20:37:04.846 -06:00 [INF] The file /favicon.ico was not modified
+2024-03-23 20:37:04.853 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/favicon.ico - 304 null image/x-icon 25.3262ms
+2024-03-23 20:37:05.817 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 20:37:05.933 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:05.948 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 20:37:06.070 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:37:06.086 -06:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 20:37:06.103 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 24.5912ms.
+2024-03-23 20:37:06.118 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 20:37:06.219 -06:00 [INF] Executed ViewResult - view Index executed in 105.3278ms.
+2024-03-23 20:37:06.222 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 266.7466ms
+2024-03-23 20:37:06.228 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:06.236 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 419.3898ms
+2024-03-23 20:37:06.292 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 20:37:06.316 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 20:37:06.647 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 354.8314ms
+2024-03-23 20:37:06.671 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 354.7524ms
+2024-03-23 20:37:08.821 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - null null
+2024-03-23 20:37:08.917 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:08.922 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectNFTs.Web.Controllers.HomeController (ProjectNFTs.Web).
+2024-03-23 20:37:09.004 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:37:09.012 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.023ms.
+2024-03-23 20:37:09.016 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 20:37:09.025 -06:00 [INF] Executed ViewResult - view Index executed in 9.5806ms.
+2024-03-23 20:37:09.029 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) in 100.9092ms
+2024-03-23 20:37:09.068 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:09.111 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 20:37:09.113 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 20:37:09.147 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - 200 null text/html; charset=utf-8 326.5399ms
+2024-03-23 20:37:09.152 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 40.8145ms
+2024-03-23 20:37:09.287 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 174.0287ms
+2024-03-23 20:37:11.132 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 20:37:11.261 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:11.263 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 20:37:11.361 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:37:11.367 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 20:37:11.378 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 14.5734ms.
+2024-03-23 20:37:11.387 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 20:37:11.459 -06:00 [INF] Executed ViewResult - view Index executed in 72.0599ms.
+2024-03-23 20:37:11.467 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 200.6314ms
+2024-03-23 20:37:11.480 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:11.482 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 349.4781ms
+2024-03-23 20:37:11.532 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 20:37:11.532 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 20:37:11.725 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 192.5692ms
+2024-03-23 20:37:11.760 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 228.5784ms
+2024-03-23 20:37:12.355 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais/Edit/1 - null null
+2024-03-23 20:37:12.465 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web)'
+2024-03-23 20:37:12.480 -06:00 [INF] Route matched with {action = "Edit", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 20:37:12.567 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:37:12.584 -06:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='1'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+WHERE [p].[IdPais] = @__p_0
+2024-03-23 20:37:12.592 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 20.8972ms.
+2024-03-23 20:37:12.598 -06:00 [INF] Executing ViewResult, running view Edit.
+2024-03-23 20:37:12.708 -06:00 [INF] Executed ViewResult - view Edit executed in 112.2673ms.
+2024-03-23 20:37:12.715 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web) in 231.6187ms
+2024-03-23 20:37:12.765 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 20:37:12.766 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 20:37:12.777 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web)'
+2024-03-23 20:37:12.781 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 16.0508ms
+2024-03-23 20:37:12.794 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais/Edit/1 - 200 null text/html; charset=utf-8 438.8694ms
+2024-03-23 20:37:12.820 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.1674ms
+2024-03-23 20:37:22.387 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 20:37:22.503 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:22.505 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 20:37:22.599 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:37:22.612 -06:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 20:37:22.617 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.6736ms.
+2024-03-23 20:37:22.622 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 20:37:22.693 -06:00 [INF] Executed ViewResult - view Index executed in 71.8415ms.
+2024-03-23 20:37:22.696 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 180.5825ms
+2024-03-23 20:37:22.699 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:37:22.703 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 315.324ms
+2024-03-23 20:37:22.935 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 20:37:22.936 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 20:37:22.962 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 26.1227ms
+2024-03-23 20:37:22.989 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.8587ms
+2024-03-23 20:37:24.155 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais/Edit/20 - null null
+2024-03-23 20:37:24.250 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web)'
+2024-03-23 20:37:24.253 -06:00 [INF] Route matched with {action = "Edit", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 20:37:24.329 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:37:24.334 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='20'], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+WHERE [p].[IdPais] = @__p_0
+2024-03-23 20:37:24.349 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 17.172ms.
+2024-03-23 20:37:24.354 -06:00 [INF] Executing ViewResult, running view Edit.
+2024-03-23 20:37:24.365 -06:00 [INF] Executed ViewResult - view Edit executed in 10.8505ms.
+2024-03-23 20:37:24.367 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web) in 109.0444ms
+2024-03-23 20:37:24.376 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Edit (ProjectNFTs.Web)'
+2024-03-23 20:37:24.395 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais/Edit/20 - 200 null text/html; charset=utf-8 239.7196ms
+2024-03-23 20:37:24.432 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 20:37:24.432 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 20:37:24.485 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 52.8058ms
+2024-03-23 20:37:24.633 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 200.8497ms
+2024-03-23 20:49:51.835 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 20:49:51.998 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:49:52.005 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 20:49:52.102 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 20:49:52.172 -06:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 20:49:52.180 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 75.5742ms.
+2024-03-23 20:49:52.183 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 20:49:52.236 -06:00 [INF] Executed ViewResult - view Index executed in 52.9087ms.
+2024-03-23 20:49:52.247 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 233.1959ms
+2024-03-23 20:49:52.253 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 20:49:52.300 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 464.697ms
+2024-03-23 20:49:52.323 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-03-23 20:49:52.333 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/css/site.css?v=wwgnV0gMEWK8sI-hK9r1V5rxA7MBerUGQCrCKAko0lA - null null
+2024-03-23 20:49:52.922 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/jquery/dist/jquery.min.js - null null
+2024-03-23 20:49:52.365 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ProjectNFTs.Web.styles.css?v=XBcsh37MSG7mUnswB0_H--UdFX9DqC97XNEneDnv5fI - null null
+2024-03-23 20:49:52.925 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-03-23 20:49:53.132 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-03-23 20:49:53.183 -06:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\wwwroot\js\site.js'
+2024-03-23 20:49:53.183 -06:00 [INF] Sending file. Request path: '/ProjectNFTs.Web.styles.css'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\obj\Debug\net8.0\scopedcss\bundle\ProjectNFTs.Web.styles.css'
+2024-03-23 20:49:53.302 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 170.2204ms
+2024-03-23 20:49:53.333 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-03-23 20:49:53.183 -06:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\wwwroot\css\site.css'
+2024-03-23 20:49:53.235 -06:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-03-23 20:49:53.235 -06:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-03-23 20:49:53.354 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ProjectNFTs.Web.styles.css?v=XBcsh37MSG7mUnswB0_H--UdFX9DqC97XNEneDnv5fI - 200 1255 text/css 988.7979ms
+2024-03-23 20:49:53.360 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-03-23 20:49:53.364 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 1040.9069ms
+2024-03-23 20:49:53.367 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/css/site.css?v=wwgnV0gMEWK8sI-hK9r1V5rxA7MBerUGQCrCKAko0lA - 200 3588 text/css 1033.7289ms
+2024-03-23 20:49:53.370 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 447.9485ms
+2024-03-23 20:49:53.376 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 450.4187ms
+2024-03-23 20:49:53.382 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 20:49:53.402 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-03-23 20:49:53.412 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css - null null
+2024-03-23 20:49:53.417 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 20:49:53.420 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 37.8187ms
+2024-03-23 20:49:53.494 -06:00 [INF] Sending file. Request path: '/_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css'. Physical path: 'C:\Users\alexa\.nuget\packages\microsoft.aspnetcore.components.quickgrid\8.0.3\staticwebassets\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css'
+2024-03-23 20:49:53.547 -06:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2024-03-23 20:49:53.534 -06:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2024-03-23 20:49:53.601 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 183.7847ms
+2024-03-23 20:49:53.695 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css - 200 8251 text/css 283.2027ms
+2024-03-23 20:49:53.700 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/jquery-validation/dist/jquery.validate.min.js - 200 24601 text/javascript 298.4782ms
+2024-03-23 20:49:53.704 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 343.7139ms
+2024-03-23 20:49:54.069 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/favicon.ico - null null
+2024-03-23 20:49:54.135 -06:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web\wwwroot\favicon.ico'
+2024-03-23 20:49:54.143 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/favicon.ico - 200 5430 image/x-icon 73.7837ms
+2024-03-23 21:08:03.983 -06:00 [INF] User profile is available. Using 'C:\Users\alexa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 21:08:04.685 -06:00 [INF] Now listening on: http://localhost:5024
+2024-03-23 21:08:04.697 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 21:08:04.700 -06:00 [INF] Hosting environment: Development
+2024-03-23 21:08:04.702 -06:00 [INF] Content root path: C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web
+2024-03-23 21:08:11.846 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - null null
+2024-03-23 21:08:13.006 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 21:08:13.217 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectNFTs.Web.Controllers.HomeController (ProjectNFTs.Web).
+2024-03-23 21:08:13.489 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:08:13.508 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.0982ms.
+2024-03-23 21:08:13.550 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:08:13.933 -06:00 [INF] Executed ViewResult - view Index executed in 400.116ms.
+2024-03-23 21:08:13.992 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) in 770.5252ms
+2024-03-23 21:08:14.327 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:08:14.327 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:08:14.338 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 21:08:14.358 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 30.3638ms
+2024-03-23 21:08:14.369 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - 200 null text/html; charset=utf-8 2540.785ms
+2024-03-23 21:08:15.004 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 677.1558ms
+2024-03-23 21:08:16.938 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:08:17.064 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:08:17.084 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:08:18.125 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:08:23.779 -06:00 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:08:23.933 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5804.6995ms.
+2024-03-23 21:08:23.949 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:08:24.148 -06:00 [INF] Executed ViewResult - view Index executed in 201.5283ms.
+2024-03-23 21:08:24.156 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 7065.7414ms
+2024-03-23 21:08:24.160 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:08:24.194 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 7255.8904ms
+2024-03-23 21:08:25.582 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:08:25.586 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:08:25.625 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 39.0608ms
+2024-03-23 21:08:25.771 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 189.2235ms
+2024-03-23 21:08:57.981 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - null 0
+2024-03-23 21:08:58.005 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:08:58.073 -06:00 [INF] Route matched with {action = "DeleteConfirm", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirm(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:08:58.098 -06:00 [INF] Antiforgery token validation failed. The required antiforgery cookie ".AspNetCore.Antiforgery.4JB5SVEXu94" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery cookie ".AspNetCore.Antiforgery.4JB5SVEXu94" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2024-03-23 21:08:58.289 -06:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2024-03-23 21:08:58.298 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2024-03-23 21:08:58.305 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web) in 224.9174ms
+2024-03-23 21:08:58.311 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:08:58.325 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - 404 0 null 357.4282ms
+2024-03-23 21:08:58.331 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5024/Pais/DeleteConfirm, Response status code: 404
+2024-03-23 21:09:01.101 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:09:01.233 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:09:01.235 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:09:01.311 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:09:01.516 -06:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:09:01.522 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 206.9947ms.
+2024-03-23 21:09:01.526 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:09:01.590 -06:00 [INF] Executed ViewResult - view Index executed in 64.1004ms.
+2024-03-23 21:09:01.602 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 360.6461ms
+2024-03-23 21:09:01.745 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:09:01.750 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:09:01.826 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:09:01.830 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 84.9609ms
+2024-03-23 21:09:01.863 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 764.1001ms
+2024-03-23 21:09:01.877 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.7117ms
+2024-03-23 21:09:07.961 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - null 0
+2024-03-23 21:09:07.970 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:09:07.982 -06:00 [INF] Route matched with {action = "DeleteConfirm", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirm(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:09:07.989 -06:00 [INF] Antiforgery token validation failed. The required antiforgery cookie ".AspNetCore.Antiforgery.4JB5SVEXu94" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery cookie ".AspNetCore.Antiforgery.4JB5SVEXu94" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2024-03-23 21:09:08.002 -06:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2024-03-23 21:09:08.015 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2024-03-23 21:09:08.020 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web) in 31.1994ms
+2024-03-23 21:09:08.022 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:09:08.032 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - 404 0 null 71.2184ms
+2024-03-23 21:09:08.068 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5024/Pais/DeleteConfirm, Response status code: 404
+2024-03-23 21:09:10.712 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:09:10.801 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:09:10.804 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:09:10.891 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:09:10.929 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:09:10.936 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 41.3733ms.
+2024-03-23 21:09:10.945 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:09:11.000 -06:00 [INF] Executed ViewResult - view Index executed in 55.3294ms.
+2024-03-23 21:09:11.091 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:09:11.093 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:09:11.103 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 14.5682ms
+2024-03-23 21:09:11.099 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 284.315ms
+2024-03-23 21:09:11.218 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.5147ms
+2024-03-23 21:09:11.235 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:09:11.244 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 532.1375ms
+2024-03-23 21:09:50.303 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:09:50.415 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:09:50.429 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:09:50.502 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:09:50.510 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:09:50.524 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 19.0998ms.
+2024-03-23 21:09:50.532 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:09:50.657 -06:00 [INF] Executed ViewResult - view Index executed in 126.6107ms.
+2024-03-23 21:09:50.696 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 262.2019ms
+2024-03-23 21:09:50.701 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:09:50.703 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 400.2677ms
+2024-03-23 21:09:50.752 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:09:50.756 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:09:50.766 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 8.8183ms
+2024-03-23 21:09:50.777 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.3901ms
+2024-03-23 21:10:02.425 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:10:02.530 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:02.532 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:10:02.619 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:10:02.628 -06:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:10:02.634 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.6208ms.
+2024-03-23 21:10:02.646 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:10:02.697 -06:00 [INF] Executed ViewResult - view Index executed in 51.0685ms.
+2024-03-23 21:10:02.701 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 163.0395ms
+2024-03-23 21:10:02.753 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:10:02.753 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:10:02.785 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 32.0802ms
+2024-03-23 21:10:02.780 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:02.900 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 146.66ms
+2024-03-23 21:10:02.968 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 543.3234ms
+2024-03-23 21:10:17.854 -06:00 [INF] User profile is available. Using 'C:\Users\alexa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 21:10:18.102 -06:00 [INF] Now listening on: http://localhost:5024
+2024-03-23 21:10:18.122 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 21:10:18.129 -06:00 [INF] Hosting environment: Development
+2024-03-23 21:10:18.213 -06:00 [INF] Content root path: C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web
+2024-03-23 21:10:22.129 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - null null
+2024-03-23 21:10:23.164 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:23.290 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectNFTs.Web.Controllers.HomeController (ProjectNFTs.Web).
+2024-03-23 21:10:23.322 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:10:23.641 -06:00 [INF] Executed ViewResult - view Index executed in 325.2335ms.
+2024-03-23 21:10:23.687 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) in 390.1322ms
+2024-03-23 21:10:23.726 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:23.766 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - 200 null text/html; charset=utf-8 1642.7582ms
+2024-03-23 21:10:24.460 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:10:24.498 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:10:25.069 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 609.5227ms
+2024-03-23 21:10:25.627 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1128.89ms
+2024-03-23 21:10:26.746 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Cliente - null null
+2024-03-23 21:10:26.769 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.ClienteController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:26.853 -06:00 [INF] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.ClienteController (ProjectNFTs.Web).
+2024-03-23 21:10:30.123 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:10:30.213 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:30.234 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:10:31.624 -06:00 [INF] Executed DbCommand (335ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[IdCliente], [c].[Apellido1], [c].[Apellido2], [c].[Email], [c].[FechaDeNacimiento], [c].[IdCriptoWallet], [c].[IdPais], [c].[Nombre], [c].[Sexo]
+FROM [Cliente] AS [c]
+2024-03-23 21:10:31.628 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:10:31.765 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:10:31.765 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:10:31.955 -06:00 [INF] Executed ViewResult - view Index executed in 191.4516ms.
+2024-03-23 21:10:31.968 -06:00 [INF] Executed ViewResult - view Index executed in 204.8909ms.
+2024-03-23 21:10:32.328 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:10:32.328 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:10:32.541 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 2217.2271ms
+2024-03-23 21:10:32.554 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.ClienteController.Index (ProjectNFTs.Web) in 5587.259ms
+2024-03-23 21:10:32.563 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 234.7509ms
+2024-03-23 21:10:32.580 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:32.583 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.ClienteController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:32.613 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Cliente - 200 null text/html; charset=utf-8 5867.776ms
+2024-03-23 21:10:32.613 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 2489.9988ms
+2024-03-23 21:10:32.634 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 305.6629ms
+2024-03-23 21:10:35.445 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - null 0
+2024-03-23 21:10:35.464 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:10:35.501 -06:00 [INF] Route matched with {action = "DeleteConfirm", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirm(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:10:35.551 -06:00 [INF] Antiforgery token validation failed. The required antiforgery cookie ".AspNetCore.Antiforgery.4JB5SVEXu94" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery cookie ".AspNetCore.Antiforgery.4JB5SVEXu94" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2024-03-23 21:10:35.588 -06:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2024-03-23 21:10:35.602 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2024-03-23 21:10:35.610 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web) in 85.3274ms
+2024-03-23 21:10:35.628 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:10:35.647 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - 404 0 null 202.4269ms
+2024-03-23 21:10:35.683 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5024/Pais/DeleteConfirm, Response status code: 404
+2024-03-23 21:10:37.131 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:10:37.144 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:37.146 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:10:37.185 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:10:37.196 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:10:37.261 -06:00 [INF] Executed ViewResult - view Index executed in 65.6182ms.
+2024-03-23 21:10:37.269 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 117.9592ms
+2024-03-23 21:10:37.323 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:10:37.329 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:10:37.345 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:37.349 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 25.451ms
+2024-03-23 21:10:37.361 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 229.7787ms
+2024-03-23 21:10:37.443 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.6861ms
+2024-03-23 21:10:38.053 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:10:38.063 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:38.067 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:10:38.080 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:10:38.085 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:10:38.144 -06:00 [INF] Executed ViewResult - view Index executed in 58.5617ms.
+2024-03-23 21:10:38.190 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:10:38.194 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:10:38.202 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 125.3891ms
+2024-03-23 21:10:38.211 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 24.9465ms
+2024-03-23 21:10:38.223 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:38.235 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.2289ms
+2024-03-23 21:10:38.236 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 183.4566ms
+2024-03-23 21:10:38.286 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:10:38.323 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:38.452 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:10:38.467 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:10:38.479 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:38.484 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:10:38.485 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:10:38.494 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:10:38.495 -06:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:10:38.502 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:10:38.551 -06:00 [INF] Executed ViewResult - view Index executed in 56.7479ms.
+2024-03-23 21:10:38.564 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 82.8735ms
+2024-03-23 21:10:38.566 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:38.568 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 282.8787ms
+2024-03-23 21:10:38.584 -06:00 [INF] Executed ViewResult - view Index executed in 81.6341ms.
+2024-03-23 21:10:38.644 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:10:38.646 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:10:38.650 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 159.7092ms
+2024-03-23 21:10:38.680 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:10:38.658 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 13.7784ms
+2024-03-23 21:10:38.683 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 230.8518ms
+2024-03-23 21:10:38.683 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.6309ms
+2024-03-23 21:11:13.423 -06:00 [INF] User profile is available. Using 'C:\Users\alexa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 21:11:14.056 -06:00 [INF] Now listening on: http://localhost:5024
+2024-03-23 21:11:14.070 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 21:11:14.076 -06:00 [INF] Hosting environment: Development
+2024-03-23 21:11:14.090 -06:00 [INF] Content root path: C:\Users\alexa\OneDrive\Documentos\UTN\2024\Ambiente Web II\ProjectNFTs\ProjectNFTs.Web
+2024-03-23 21:11:14.973 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - null null
+2024-03-23 21:11:16.421 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 21:11:16.626 -06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjectNFTs.Web.Controllers.HomeController (ProjectNFTs.Web).
+2024-03-23 21:11:16.930 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:11:16.949 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.709ms.
+2024-03-23 21:11:16.981 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:11:17.541 -06:00 [INF] Executed ViewResult - view Index executed in 568.3059ms.
+2024-03-23 21:11:17.972 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:11:18.070 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:11:18.086 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web) in 1454.2879ms
+2024-03-23 21:11:18.096 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 123.721ms
+2024-03-23 21:11:18.123 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.HomeController.Index (ProjectNFTs.Web)'
+2024-03-23 21:11:18.148 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - 200 null text/html; charset=utf-8 3192.7039ms
+2024-03-23 21:11:18.345 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 274.861ms
+2024-03-23 21:11:21.125 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:11:21.244 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:11:21.263 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:11:22.647 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:11:23.763 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2024-03-23 21:11:23.781 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-03-23 21:11:23.901 -06:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css.map was not modified
+2024-03-23 21:11:23.915 -06:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map was not modified
+2024-03-23 21:11:23.917 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/css/bootstrap.min.css.map - 304 null text/plain 153.9142ms
+2024-03-23 21:11:23.918 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 304 null text/plain 137.401ms
+2024-03-23 21:11:29.125 -06:00 [INF] Executed DbCommand (137ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:11:29.277 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6625.819ms.
+2024-03-23 21:11:29.295 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:11:29.523 -06:00 [INF] Executed ViewResult - view Index executed in 231.579ms.
+2024-03-23 21:11:29.785 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:11:29.790 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:11:29.829 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 8560.2171ms
+2024-03-23 21:11:29.834 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 49.6522ms
+2024-03-23 21:11:29.850 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:11:29.899 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 8774.3088ms
+2024-03-23 21:11:29.947 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 156.7069ms
+2024-03-23 21:11:33.245 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - null 0
+2024-03-23 21:11:33.264 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:11:33.308 -06:00 [INF] Route matched with {action = "DeleteConfirm", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirm(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:11:33.335 -06:00 [INF] Antiforgery token validation failed. The required antiforgery cookie ".AspNetCore.Antiforgery.4JB5SVEXu94" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery cookie ".AspNetCore.Antiforgery.4JB5SVEXu94" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2024-03-23 21:11:33.396 -06:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2024-03-23 21:11:33.414 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2024-03-23 21:11:33.431 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web) in 115.9986ms
+2024-03-23 21:11:33.436 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:11:33.451 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - 404 0 null 206.2271ms
+2024-03-23 21:11:33.488 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5024/Pais/DeleteConfirm, Response status code: 404
+2024-03-23 21:12:26.620 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:12:26.680 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:12:26.804 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:12:26.879 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:12:26.880 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:12:26.887 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:12:26.952 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:12:27.028 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:12:27.322 -06:00 [INF] Executed DbCommand (153ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:12:27.322 -06:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:12:27.655 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 699.6829ms.
+2024-03-23 21:12:27.658 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 624.7735ms.
+2024-03-23 21:12:27.663 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:12:27.664 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:12:27.739 -06:00 [INF] Executed ViewResult - view Index executed in 74.9181ms.
+2024-03-23 21:12:27.741 -06:00 [INF] Executed ViewResult - view Index executed in 80.5294ms.
+2024-03-23 21:12:27.747 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 794.5429ms
+2024-03-23 21:12:27.921 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:12:27.945 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:12:28.317 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:12:28.320 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 399.7277ms
+2024-03-23 21:12:28.365 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 1685.1071ms
+2024-03-23 21:12:28.252 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 1366.7513ms
+2024-03-23 21:12:28.516 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:12:28.453 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 507.7794ms
+2024-03-23 21:12:28.519 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 1898.2988ms
+2024-03-23 21:12:30.168 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - null 0
+2024-03-23 21:12:30.191 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:12:30.205 -06:00 [INF] Route matched with {action = "DeleteConfirm", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteConfirm(Int32) on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:12:30.320 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:12:30.423 -06:00 [INF] Executed DbCommand (42ms) [Parameters=[@p0='1'], CommandType='"Text"', CommandTimeout='30']
+Delete Pais Where IdPais = @p0
+2024-03-23 21:12:30.431 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 106.3122ms.
+2024-03-23 21:12:30.435 -06:00 [INF] Executing RedirectResult, redirecting to /Pais.
+2024-03-23 21:12:30.437 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web) in 208.3302ms
+2024-03-23 21:12:30.441 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.DeleteConfirm (ProjectNFTs.Web)'
+2024-03-23 21:12:30.444 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5024/Pais/DeleteConfirm?id=1 - 302 0 null 275.5939ms
+2024-03-23 21:12:30.455 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:12:30.465 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:12:30.469 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:12:30.521 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:12:30.529 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:12:30.535 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.7439ms.
+2024-03-23 21:12:30.540 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:12:30.592 -06:00 [INF] Executed ViewResult - view Index executed in 51.4722ms.
+2024-03-23 21:12:30.599 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 124.7279ms
+2024-03-23 21:12:30.602 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:12:30.603 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 148.8779ms
+2024-03-23 21:12:35.437 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:12:35.541 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:12:35.544 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:12:35.626 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:12:35.645 -06:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:12:35.649 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.0653ms.
+2024-03-23 21:12:35.652 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:12:35.697 -06:00 [INF] Executed ViewResult - view Index executed in 44.4882ms.
+2024-03-23 21:12:35.701 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 153.5003ms
+2024-03-23 21:12:35.833 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:12:35.847 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:12:36.425 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:12:36.435 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 601.671ms
+2024-03-23 21:12:36.520 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 672.5628ms
+2024-03-23 21:12:36.534 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 1097.1419ms
+2024-03-23 21:13:20.152 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Pais - null null
+2024-03-23 21:13:20.430 -06:00 [INF] Executing endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:13:20.440 -06:00 [INF] Route matched with {action = "Index", controller = "Pais"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller ProjectNFTs.Web.Controllers.PaisController (ProjectNFTs.Web).
+2024-03-23 21:13:20.532 -06:00 [INF] Executing action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) - Validation state: "Valid"
+2024-03-23 21:13:20.543 -06:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[IdPais], [p].[Descripcion]
+FROM [Pais] AS [p]
+2024-03-23 21:13:20.559 -06:00 [INF] Executed action method ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 23.8466ms.
+2024-03-23 21:13:20.565 -06:00 [INF] Executing ViewResult, running view Index.
+2024-03-23 21:13:20.650 -06:00 [INF] Executed ViewResult - view Index executed in 85.6523ms.
+2024-03-23 21:13:20.657 -06:00 [INF] Executed action ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web) in 208.211ms
+2024-03-23 21:13:20.665 -06:00 [INF] Executed endpoint 'ProjectNFTs.Web.Controllers.PaisController.Index (ProjectNFTs.Web)'
+2024-03-23 21:13:20.668 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Pais - 200 null text/html; charset=utf-8 566.5636ms
+2024-03-23 21:13:20.733 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - null null
+2024-03-23 21:13:20.735 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 21:13:20.747 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 12.1023ms
+2024-03-23 21:13:20.753 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.736ms

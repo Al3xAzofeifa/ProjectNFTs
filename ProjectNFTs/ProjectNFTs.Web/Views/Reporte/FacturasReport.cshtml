@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Producto PDF";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Reporte de facturas por fechas
+        </div>
+        <div class="card-body">
+            <form asp-action="FacturasReportByFechasPDF"
+                  asp-controller="Reporte"
+                  method="post"
+                  asp-antiforgery="true" onsubmit="return validateForm()">
+
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label for="fecha1" class="form-label">Fecha 1</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="date" id="fecha1" name="fecha1" class="form-control">
+                    </div>
+                    <div class="col-auto">
+                        <label for="fecha2" class="form-label">Fecha 2</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="date" class="form-control" id="fecha2" name="fecha2" value="@DateTime.Now.ToString("yyyy-MM-dd")">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-success">Consultar</button>
+                    </div>
+                </div>
+            </form>
+            <br />
+            <br />
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-danger" id="Message" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script type="text/javascript">
+
+        function validateForm() {
+            let fecha1 = document.getElementById("fecha1").value;
+            let fecha2 = document.getElementById("fecha2").value;
+
+            if (fecha1 === "" || fecha2 === "") {
+                alert("Por favor, seleccione ambas fechas.");
+                return false;
+            }
+
+            console.log("Fecha 1: " + fecha1);
+            console.log("Fecha 2: " + fecha2);
+
+            return true;
+        }
+
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

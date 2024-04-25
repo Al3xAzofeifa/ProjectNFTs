@@ -1,0 +1,96 @@
+﻿@model ProjectNFTs.Application.DTOs.ClienteDTO
+
+<script src="/js/pais.js" asp-append-version="true"></script>
+@{
+    Layout = null;
+}
+
+
+<div class="container">    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.IdCliente)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.IdCliente)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr/>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Apellido1)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Apellido1)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Apellido2)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Apellido2)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr  />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr  />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Sexo)
+        </dt>
+        <dd class = "col-sm-8">
+            @{
+                string sexo;
+                if (Model.Sexo.Equals("F"))
+                {
+                    sexo = "Femenino";
+                }
+                else if (Model.Sexo.Equals("M"))
+                {
+                    sexo = "Masculino";
+                }
+                else
+                {
+                    sexo = "Otro";
+                }
+                @Html.Raw(sexo)
+                ;
+            }
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.FechaDeNacimiento)
+        </dt>
+        <dd class = "col-sm-8">
+            @Html.DisplayFor(model => model.FechaDeNacimiento)
+        </dd>
+        <!-- Agregar una línea divisoria -->
+        <hr class="col-sm-12" />
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.IdPais)
+        </dt>
+        <dd class = "col-sm-8">            
+            @{
+                string pais = Model.IdPais + " - " + Model.DescripcionPais;
+                @Html.Raw(pais)
+                ;
+            }
+            
+        </dd>
+    </dl>
+</div>

@@ -1,0 +1,423 @@
+﻿@model ProjectNFTs.Application.DTOs.EncabezadoFacturaDTO
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@*En el original, hay un campo llamado Total, verificar si es necesario o no*@
+
+<div class="card">
+    <div class="card-header">Factura</div>
+    <div class="card-body">
+
+        <form asp-action="Create" asp-controller="Factura" id="myForm"
+              data-ajax="true"
+              data-ajax-method="POST"
+              data-ajax-begin="onBegin"
+              data-ajax-failure="onFailure"
+              data-ajax-success="onSuccess"
+              data-ajax-complete="onComplete">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="d-flex gap-2  ">
+                <div class=" ">
+                    <label asp-for="IdFactura" class="control-label fw-normal"></label>
+                    <input asp-for="IdFactura" class="form-control form-control-sm" value="@ViewBag.CurrentReceipt" readonly />
+                    <span asp-validation-for="IdFactura" class="text-danger"></span>
+                </div>
+                <div class=" ">
+                    <label asp-for="IdCliente" class="control-label"></label>
+                    <input id="NombreCliente" asp-for="NombreCliente" type="text" class="form-control" />
+                    <input asp-for="IdCliente" id="IdCliente" type="text" class="form-control" hidden />
+                    <span asp-validation-for="IdCliente" class="text-danger"></span>
+                    @* <label id="NombreCliente" class="control-label fw-bold">-</label> *@
+
+                </div>
+                <div class=" ">
+                    <label asp-for="IdTarjeta" class="control-label"></label>
+                    @Html.DropDownListFor(m => m.IdTarjeta,
+                             new SelectList(ViewBag.ListTarjeta, "Id", "Descripcion"), new { @class = "form-select form-select " })
+                    <span asp-validation-for="IdTarjeta" class="text-danger"></span>
+                </div>
+
+                <div class="  ">
+                    <label asp-for="NumeroTarjeta" class="control-label"></label>
+                    <input asp-for="NumeroTarjeta" class="form-control" />
+                    <span asp-validation-for="NumeroTarjeta" class="text-danger"></span>
+                </div>
+                <div class="  ">
+                    <label></label>
+                    <button type="submit" class="bi bi-receipt-cutoff btn btn-success form-control">Facturar</button>                    
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div class="card">
+    <div class="card-header">Detalle</div>
+    <div class="card-body">
+        <div class="d-flex gap-3">          
+            <div class="form-group">               
+                @* <button class="btn btn-primary form-control" onclick="addNft()">Agregar</button>*@
+                <button class=" bi bi-plus-circle btn btn-primary form-control" data-bs-toggle="modal" data-bs-target="#myModal" id="loadPartialBtn"> Agregar NFT</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="divDetalleFactura" class="px-3"></div>
+</div>
+
+
+<!-------------------------------------- Modal ----------------------------->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">NFT's</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Etiqueta mostrar donde se inyecta el partialview-->
+                <div id="mostrar" class=""></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Cerrar</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<div id="contenedor"></div>
+<div id="loader" class="xxxx"></div>
+<br />
+
+<!------------------------------------ Fin Modal ----------------------------->
+@section Scripts {
+
+
+    <script>
+        ///////////////////////////////////////////////////////////////////
+        // Autocomplete NftId search by Nft Name
+        ///////////////////////////////////////////////////////////////////
+        $("#IdNft").autocomplete({
+            source: function (request, response) {
+                var id = $("#IdNft").val();
+                //debugger;
+
+                // default IMAGE NO-IMAGE
+                // $("#ImgNft").attr("src", "/Images/nophoto.jpg");
+                // Clear Nft Name
+                $("#NftNombre").html("")
+                $("#Precio").val("");
+                $("#Cantidad").val("");
+                $("#CantidadEnInventario").val("");
+                $.ajax({
+                    type: "GET",
+                    url: "/Nft/GetNftByName",
+                    dataType: "json",
+                    data: { filtro: id },
+                    success: function (data) {
+                        response($.map(data, function (item) {
+
+                            //debugger;
+                            return { label: item.nombre, value: item.id, data: item };
+                        }));
+                    },
+                    error: function (xhr, status, error) {
+                        // xhr.requestText
+                        // debugger;
+                        console.log(error)
+                        alert("Error: " + error + ", No Error: " + xhr.status);
+                    },
+                });
+            },
+            select: function (event, ui) {
+
+                // Mostrar la imagen en un Sweet Alert
+                Swal.fire({
+                    title: ui.item.label,
+                    html: `<img src='data:image/jpeg;charset=utf-8;base64,${ui.item.data.imagen}' style='max-height: 75vh;' />`,
+                    showCloseButton: false,
+                    showConfirmButton: true,
+                    width: 'auto',
+                    height: 'auto'
+                });
+
+                // Show data
+                $("#IdNft").val(ui.item.value)
+                $("#NftNombre").html(ui.item.label + " - Inventario:" + ui.item.data.cantidadInventario)
+                $("#Precio").val(ui.item.data.valor)
+                $("#IdNft").focus();
+                // Show the image, it isn't necesary to convert to Base64 since it comes from Json
+                //$("#ImgNft").attr("src", "data:image/jpeg;charset=utf-8;base64," + ui.item.data.imagen);
+                $("#CantidadEnInventario").val(ui.item.data.cantidadInventario);
+
+                return false;
+            }
+        });
+    </script>
+
+    <script>
+
+        ////////////////////////////////////////////////////
+        // Busca el cliente por nombre+apellido1+apellido2 //
+        /////////////////////////////////////////////////////
+
+        $("#NombreCliente").autocomplete({
+            source: function (request, response) {
+                var nombreCliente = $("#NombreCliente").val();
+                $.ajax({
+                    type: "GET",
+                    url: "/Cliente/GetClienteByName",
+                    dataType: "json",
+                    data: { filtro: nombreCliente },
+                    success: function (data) {
+                        response($.map(data, function (item) {
+                            return { label: item.nombre + " " + item.apellido1 + " " + item.apellido2, value: item.idCliente };
+                        }));
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(error)
+                        alert("Error: " + error + ", No Error: " + xhr.status);
+                    },
+                });
+            },
+            select: function (event, ui) {
+                $("#NombreCliente").val(ui.item.label); // 
+                $("#IdCliente").val(ui.item.value); // 
+                return false;
+            }
+        });
+    </script>
+
+
+    <script>
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        // Clear IdCliente and NombreCliente when they got the focus                                 //
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        $("#NombreCliente").focus(function () {
+            // Limpia la caja de texto
+            $("#IdCliente").val("");
+            $("#NombreCliente").html("*")
+        });
+    </script>
+
+    <script>
+
+        $(document).ready(function () {
+            $('#loadPartialBtn').click(function () {
+                $.get('@Url.Action("_List", "Nft")', function (data) {
+                    $('#mostrar').html(data);
+                });
+            });
+        });
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        // Add cardshoping Nft
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        function addNft(idNft, cantidadEnInventario, precio) {
+            let divDetalleFactura = document.getElementById("divDetalleFactura");
+
+            // Verificar si ya existe un detalle con el mismo IdNft
+            let existingDetail = divDetalleFactura.querySelector(`.idNft-${idNft}`);
+            if (existingDetail) {
+                Swal.fire({
+                    title: "Error!",
+                    text: "Este NFT ya está en la factura!",
+                    icon: "error"
+                });
+                return;
+            }
+
+            if (idNft.trim() === "") {
+                Swal.fire({
+                    title: "Error!",
+                    text: "Ingrese el código del Nft!",
+                    icon: "error"
+                });
+                return;
+            }
+
+            // Validate stock?
+            if (1 > parseInt(cantidadEnInventario)) {
+
+                Swal.fire({
+                    title: "Error!",
+                    text: "La cantidad de inventario insuficiente! ",
+                    icon: "error"
+                });
+                return;
+            }
+
+            const myRequest = "/Factura/AddNft?id=" + idNft + "&cantidad=" + cantidadEnInventario
+
+            const options = {
+                method: 'GET'
+            }
+
+            fetch(myRequest, options)
+                .then(function (response) {
+                    // Error?
+                    if (!response.ok) {
+                        // console.log(response)
+                        // Get error from promise and throw a Error Object
+                        return response.text().then(text => { throw new Error(text) })
+                    }
+                    // everthing goes well!
+                    return response.text();
+                })
+                .then((text) => {
+                    //console.log(results)
+                    toastr.success('NFT agregado correctamente!', 'Operación exitosa');
+                    divDetalleFactura.innerHTML = text
+                }).catch(error => {
+                    // show error
+                    Swal.fire({
+                        title: "Error",
+                        text: error,
+                        icon: "error"
+                    })
+                })
+        }
+
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        // Delete item from Cardshop
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        function deleteNft(secuence) {
+            console.log("Borrar " + secuence)
+            const divDetalleFactura = document.getElementById("divDetalleFactura");
+            const myRequest = "/Factura/DeleteNft?id=" + secuence
+            const options = {
+                method: 'GET'
+            }
+            fetch(myRequest, options)
+                .then(function (response) {
+                    // Error?
+                    if (!response.ok) {
+                        // console.log(response)
+                        // Extraer error from promise and throw a Error Object
+                        return response.text().then(text => { throw new Error(text) })
+                    }
+                    // everthing goes well!
+                    return response.text();
+                })
+                .then((text) => {
+                    divDetalleFactura.innerHTML = text
+
+                }).catch(error => {
+
+                    // show error
+                    Swal.fire({
+                        title: "Error",
+                        text: error,
+                        icon: "error"
+                    })
+
+                })
+        }
+
+    </script>
+
+    <script>
+        // Captura el clic en la imagen y muestra la imagen ampliada en pantalla completa
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('divDetalleFactura').addEventListener('click', function (event) {
+                if (event.target.classList.contains('zoom2')) {
+                    var imagenAmpliadaContainer = document.createElement('div');
+                    imagenAmpliadaContainer.id = 'imagenAmpliadaContainer';
+                    document.body.appendChild(imagenAmpliadaContainer);
+
+                    var imagenAmpliada = document.createElement('img');
+                    imagenAmpliada.id = 'imagenAmpliada';
+                    imagenAmpliada.src = event.target.src;
+                    imagenAmpliada.alt = 'NFT Image';
+                    imagenAmpliadaContainer.appendChild(imagenAmpliada);
+
+                    // Esperamos un corto tiempo antes de cambiar la opacidad para permitir la transición suave
+                    setTimeout(function () {
+                        imagenAmpliadaContainer.style.opacity = '1';
+                    }, 50);
+
+                    // Cierra la imagen ampliada al hacer clic fuera de ella
+                    imagenAmpliadaContainer.addEventListener('click', function () {
+                        imagenAmpliadaContainer.style.opacity = '0'; // Primero, hacemos que la opacidad sea 0 para la transición de salida
+                        setTimeout(function () {
+                            imagenAmpliadaContainer.remove(); // Luego, eliminamos el contenedor de la imagen ampliada después de la transición
+                        }, 300);
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
+    <!------------------------------------------------------------------------------------------------->
+    <!--Ajax control -->
+    <script>
+        function onBegin() {
+            console.log("onBegin")
+            document.getElementById("loader").className = "loading";
+        }
+
+        function onFailure(response) {
+            console.log("onFailure")
+            Swal.fire({
+                title: "Error!",
+                text: response.responseText,
+                icon: "error"
+            });
+        }
+
+        function onSuccess(response) {
+            console.log("onSuccess")
+            // Reset form (clear all fields)
+            document.getElementById("myForm").reset();
+            // Clear
+            document.getElementById("NombreCliente").innerHTML = ""
+            // Delete table
+            document.getElementById("divDetalleFactura").innerHTML = ""
+
+            Swal.fire({
+                icon: "success",
+                title: "Factura salvada ...",
+                showConfirmButton: false,
+                timer: 1500
+            });
+
+            // Refresh the page
+            location.reload();
+
+        }
+
+        function onComplete() {
+            console.log("Fin del proceso")
+        }
+    </script>
+
+
+
+    <!-- Otros-->
+    <script>
+        function onClearForm() {
+
+            // Reset form (clear all fields)
+            document.getElementById("myForm").reset();
+            // Clear
+            document.getElementById("NombreCliente").innerHTML = ""
+            // Delete table
+            document.getElementById("detalleFacturaView").innerHTML = ""
+
+        }
+
+
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
